@@ -1,0 +1,13 @@
+package com.example.kollok.data;
+
+import com.example.kollok.api.models.Dish;
+import com.example.kollok.api.models.Menu;
+import org.springframework.context.annotation.Bean;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface DishRepository
+        extends JpaRepository<Dish, Long>{
+
+}
